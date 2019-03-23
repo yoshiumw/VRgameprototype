@@ -1,7 +1,7 @@
-# What I got so far :)
-My ventures into programming games, open source resources I've gathered, and what I've learnt!!
+# What I know so far :)
+My ventures into programming games and open source resources I've learned!!
 
-### SO FAR:
+### EVERYTHING SO FAR:
 
 Resources I have gathered:
 - first person example map
@@ -13,8 +13,8 @@ Resources I have gathered:
 - GTFreeMaterials -> free from marketplace
 - Foliage -> .rar pack from forum
 
-### IN THE PROCESS OF:
-- making an AI that follows you and has range
+### CURRENTLY IN THE PROCESS OF:
+- creating an AI that follows you and has a range
 
 Coded so far:
 - tracing using the camera
@@ -28,20 +28,20 @@ Coded so far:
 - player doesn't get teleported.
 - when cubes are teleported it adds to a counter. When the counter hits 3 it teleports the lander that the cubes are teleported to
 - the lander goes towards a sphere placed in the game (means that it can go to any component the player sets it to go towards).
-- bridge is now crossable
+- the bridge can now be crossed
 - AI implemented in there: if you walk in its radius, it will follow you. If not it will wander around
-- if you go in the inner radius of the AI's sight, it will pull up a widget (UI) that will ask you if you need help
+- if you go into the inner radius of the AI's sight, it will pull up a widget (UI) that will ask you if you need help
 - once you answer if you do or do not need help, widget will close and wont open up again
-- made a pickaxe animation appear to pick at the rock. made it loop and reverse on play. - this will let the player know they can pull     from the rock
+- made a pickaxe animation appear to pick at the rock. Made it loop and reverse on play. This will let the player know they can pull     from the rock
 
-Some bugs :
+### Current Bugs
 - FIXED (using casting method): when spawned from the cone, cubes somehow get stuck there now (was correct in earlier version)
 - when cubes are teleported, they are teleported instantly. Wanted more of a sweeping motion
 - shadow stays when I deleted a static mesh from my map?
 - the bridge will keep on building when the player keeps putting material onto a certain volume.
 - when AI comes up to you and asks if you need help, even if you click no it will continue to follow you
 
-### TODO:
+### TO DO LIST
 - want a method to transport blocks on trigger overlapping component to build into some sort of        
 - COMPLETED: maybe make some material
 - rip medieval town models and textures online
@@ -53,13 +53,13 @@ Some bugs :
 - refine the cube spawner so it won't rapidly spawn every time you click, maybe it delays a bit
 - find things to do..
 
-Theme so far/story boarding:
+Theme and story boarding:
 - I like the single creepy hand
 - Takes place in: forest type place but I want cute aesthetic lighting of blue and green lights the size of dust particles 
 - aesthetic: Halloween type characters but in a cute pixel-based way
 - story: You are a hand with the power to bring things toward you (really heavy things like rocks and stuff) and you start off in the     forest. The forest is inhabited by ghosts who want a settlement in the forest (houses, bridges, etc.); nevertheless, they can't         physically pick stuff up because they are well... ghosts. So you must use your powers to help pull material from your surrounding and   build settlement for these helpless, yearning beings.
 
-Stuff figured out/learning so far:
+Stuff learned so far:
 - Casting: when you want to dive into another class blueprint and change it from the blueprint casting it. - More research needed.
 - Dealing with component vectors, how to transform them and the method to use that is not hard coding.
 - learning behavior trees - nodes + blackboard stuff (what I have enjoyed most)
